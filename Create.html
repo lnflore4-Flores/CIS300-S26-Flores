@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContentLab</title>
+    <link rel="stylesheet" href="main.css"> 
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <div class="topbar">
+                <div class="logo-box">Logo</div>
+
+                <div class="top-links">
+                    <a class="signin-button" href="#signin">Sign-in</a>
+
+                    <nav>
+                        <a href="index.html">Home</a>
+                        <a href="Create.html">Create</a>
+                        <a href="Edit.html">Edit</a>
+                        <a href="#dashboard">Dashboard</a>
+                        <a href="#demos">Demos</a>
+                    </nav>
+                </div>
+            </div>
+        
+        </header>
+
+            <section class="intro-create">
+                <div class="intro-create-text-box">
+                    <h3>Create Your Content</h3>
+                    <p3>Get started by creating your first piece of content. Just tell us what you want and we will do the rest. </p>
+                </div>
+            </section>
+
+            <section class="form-section">
+                <form action="/submit" method="post">
+                    <fieldset>
+                        <legend>Title</legend>
+                        <input type="text" id="title" name="title" required><br>
+                    </fieldset>
+
+                      <br><br>
+
+                    <fieldset>
+                        <legend>What is your goal for this content?</legend>
+                        <input type="text" id="Purpose" name="Purpose" required><br>
+                    </fieldset>
+
+                <br><br>
+
+                <fieldset>
+                    <legend>Social Media Type:</legend>
+
+                    <input type="radio" id="Post" name="social_media_type" value="Post" required>
+                    <label for="Post">Post</label><br>
+                
+                    <input type="radio" id="Story" name="social_media_type" value="Story">
+                    <label for="Story">Story</label><br>
+                
+                    <input type="radio" id="Bio" name="social_media_type" value="Bio">
+                    <label for="Bio">Bio</label><br>
+                </fieldset>
+
+                <br><br>
+
+                <fieldset>
+                    <legend>Who is the target audience? (Select all that apply)</legend>
+                    <input type="checkbox" id="young_adults" name="audience" value="young_adults">
+                    <label for="young_adults">Young adults</label><br>
+                    <input type="checkbox" id="business_professionals" name="audience" value="business_professionals">
+                    <label for="business_professionals">Business professionals</label><br>
+                    <input type="checkbox" id="students" name="audience" value="students">
+                    <label for="students">Students</label><br>
+                    <input type="checkbox" id="families" name="audience" value="families">
+                    <label for="families">Families</label><br>
+                    <input type="checkbox" id="other" name="audience" value="other">
+                    <label for="other">Other:</label>
+                    <input type="text" id="other_audience" name="other_audience" placeholder="Specify other audience"><br>
+                </fieldset>
+
+                <br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+            </section>
+
+            <footer id="demos">
+            <p class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#terms">Terms</a>
+                <a href="#privacy">Privacy</a>
+            </p>
+            <p>Contact: Lea Flores</p>
+            <p><a href="mailto:lnflore4@asu.edu">lnflore4@asu.edu</a></p>
+            <p>Copyright Company 2026; All Rights Reserved</p>
+        </footer>
+
+    </div>
+</body>
+</html>
+
+        
